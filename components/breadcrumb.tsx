@@ -2,11 +2,12 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { ChevronRight, Home } from 'lucide-react'
+import { ChevronRight, Home, LucideIcon } from 'lucide-react'
 
 interface BreadcrumbItem {
   label: string
   href?: string
+  icon?: LucideIcon
 }
 
 export function Breadcrumb() {
