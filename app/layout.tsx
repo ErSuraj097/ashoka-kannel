@@ -8,6 +8,7 @@ import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import { ScrollToTop } from '@/components/scroll-to-top'
 import { WhatsAppButton } from '@/components/whatsapp-button'
+import { Chatbot } from '@/components/chatbot'
 // import { SocialMediaIcons } from '@/components/social-media-icons'
 import { OrganizationSchema } from '@/components/structured-data'
 import { SocialMediaIcons } from "@/components/social-media-icons"
@@ -90,6 +91,8 @@ export default function RootLayout({
         <Footer />
         <SocialMediaIcons />
         <ScrollToTop />
+        {/* <WhatsAppButton /> */}
+        <Chatbot />
       </body>
     </html>
   )
